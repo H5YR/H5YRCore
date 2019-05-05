@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+	
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="XCOPY /s /y &quot;$(TargetDir)$(ProjectName).*&quot; &quot;$(ProjectDir)\..\$(SolutionName).Web\bin\&quot;" />
+  </Target>
+
+	<ItemGroup>
+		<PackageReference Include="UmbracoCms.Core" Version="8.0.1" />
+		<PackageReference Include="UmbracoCms.Web" Version="8.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Tweetinvi">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.Controllers">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.Controllers.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.Core">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.Credentials">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.Credentials.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.Factories">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.Factories.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.Logic">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.Logic.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.Security">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.Security.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.Streams">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.Streams.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Tweetinvi.WebLogic">
+	    <HintPath>..\packages\TweetinviAPI.4.0.0\lib\net461\Tweetinvi.WebLogic.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,1780 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "AutoMapper/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net461/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net461/AutoMapper.dll": {}
+        }
+      },
+      "ClientDependency/1.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ClientDependency.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ClientDependency.Core.dll": {}
+        }
+      },
+      "ClientDependency-Mvc5/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "ClientDependency": "1.8.0",
+          "Microsoft.AspNet.Mvc": "5.0.0"
+        },
+        "compile": {
+          "lib/net45/ClientDependency.Core.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ClientDependency.Core.Mvc.dll": {}
+        }
+      },
+      "CSharpTest.Net.Collections/14.906.1403.1082": {
+        "type": "package",
+        "compile": {
+          "lib/net40/CSharpTest.Net.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CSharpTest.Net.Collections.dll": {}
+        }
+      },
+      "Examine/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Lucene.Net": "[3.0.3, 4.0.0)"
+        },
+        "compile": {
+          "lib/net452/Examine.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Examine.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.8.14": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "ImageProcessor/2.7.0.100": {
+        "type": "package",
+        "compile": {
+          "lib/net452/ImageProcessor.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {}
+        }
+      },
+      "LightInject/5.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.IO",
+          "System.Linq.Expressions",
+          "System.Runtime",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net46/LightInject.dll": {}
+        },
+        "runtime": {
+          "lib/net46/LightInject.dll": {}
+        }
+      },
+      "LightInject.Annotation/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "LightInject": "4.1.0"
+        },
+        "compile": {
+          "lib/net46/LightInject.Annotation.dll": {}
+        },
+        "runtime": {
+          "lib/net46/LightInject.Annotation.dll": {}
+        }
+      },
+      "LightInject.Mvc/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "LightInject": "5.0.0",
+          "LightInject.Web": "2.0.0"
+        },
+        "compile": {
+          "lib/net46/LightInject.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net46/LightInject.Mvc.dll": {}
+        }
+      },
+      "LightInject.Web/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "LightInject": "4.1.0"
+        },
+        "compile": {
+          "lib/net46/LightInject.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net46/LightInject.Web.dll": {}
+        }
+      },
+      "LightInject.WebApi/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "LightInject": "5.0.0"
+        },
+        "compile": {
+          "lib/net46/LightInject.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net46/LightInject.WebApi.dll": {}
+        }
+      },
+      "Lucene.Net/3.0.3": {
+        "type": "package",
+        "dependencies": {
+          "SharpZipLib": "0.86.0"
+        },
+        "compile": {
+          "lib/NET40/Lucene.Net.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/Lucene.Net.dll": {}
+        }
+      },
+      "Markdown/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Markdown.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Markdown.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Identity.Core/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Identity.Owin/2.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Identity.Core": "2.2.2",
+          "Microsoft.Owin.Security": "3.0.1",
+          "Microsoft.Owin.Security.Cookies": "3.0.1",
+          "Microsoft.Owin.Security.OAuth": "3.0.1"
+        },
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.7, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.7, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.7, 5.3.0)"
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.7, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Owin/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security.Cookies/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Microsoft.Owin.Security": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.Cookies.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.Cookies.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security.OAuth/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Microsoft.Owin.Security": "4.0.1",
+          "Newtonsoft.Json": "10.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "MiniProfiler/4.0.138": {
+        "type": "package",
+        "dependencies": {
+          "MiniProfiler.Shared": "4.0.138"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration",
+          "System.Data",
+          "System.Data.Linq",
+          "System.Runtime.Caching",
+          "System.Runtime.Serialization",
+          "System.Transactions",
+          "System.Web",
+          "System.Web.Extensions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net461/MiniProfiler.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MiniProfiler.dll": {}
+        }
+      },
+      "MiniProfiler.Shared/4.0.138": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Diagnostics.DiagnosticSource": "4.4.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Data",
+          "System.Data.Linq",
+          "System.Runtime.Caching",
+          "System.Runtime.Serialization",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net461/MiniProfiler.Shared.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MiniProfiler.Shared.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NPoco/3.9.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Configuration",
+          "System.Data",
+          "System.Runtime.Caching",
+          "System.Runtime.Serialization",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/NPoco.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NPoco.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "Semver/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Semver.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Semver.dll": {}
+        }
+      },
+      "Serilog/2.8.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net46/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Serilog.dll": {}
+        }
+      },
+      "Serilog.Enrichers.Process/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/Serilog.Enrichers.Process.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Enrichers.Process.dll": {}
+        }
+      },
+      "Serilog.Enrichers.Thread/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/Serilog.Enrichers.Thread.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Enrichers.Thread.dll": {}
+        }
+      },
+      "Serilog.Filters.Expressions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.7.1",
+          "Superpower": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/Serilog.Filters.Expressions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Filters.Expressions.dll": {}
+        }
+      },
+      "Serilog.Formatting.Compact/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/Serilog.Formatting.Compact.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Formatting.Compact.dll": {}
+        }
+      },
+      "Serilog.Formatting.Compact.Reader/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "Serilog": "2.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Serilog.Formatting.Compact.Reader.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Formatting.Compact.Reader.dll": {}
+        }
+      },
+      "Serilog.Settings.AppSettings/2.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.6.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/Serilog.Settings.AppSettings.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Settings.AppSettings.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "Superpower/2.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Superpower.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Superpower.dll": {}
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.4.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net46/System.Diagnostics.DiagnosticSource.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Dataflow/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "Umbraco.SqlServerCE/4.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net472/System.Data.SqlServerCe.Entity.dll": {},
+          "lib/net472/System.Data.SqlServerCe.dll": {}
+        },
+        "runtime": {
+          "lib/net472/System.Data.SqlServerCe.Entity.dll": {},
+          "lib/net472/System.Data.SqlServerCe.dll": {}
+        },
+        "build": {
+          "build/Umbraco.SqlServerCE.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.VC90.CRT/msvcr90.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/sqlceca40.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/sqlcecompact40.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/sqlceer40EN.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/sqlceme40.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/sqlceqp40.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/sqlcese40.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.VC90.CRT/msvcr90.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/sqlceca40.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/sqlcecompact40.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/sqlceer40EN.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/sqlceme40.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/sqlceqp40.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/sqlcese40.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "UmbracoCms.Core/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "[8.0.0, 8.999999.0)",
+          "LightInject": "[5.4.0, 5.999999.0)",
+          "LightInject.Annotation": "[1.1.0, 1.999999.0)",
+          "LightInject.Web": "[2.0.0, 2.999999.0)",
+          "Microsoft.AspNet.Identity.Core": "[2.2.2, 2.999999.0)",
+          "Microsoft.AspNet.WebApi.Client": "[5.2.7, 5.999999.0)",
+          "Microsoft.Owin": "[4.0.1, 4.999999.0)",
+          "MiniProfiler": "[4.0.138, 4.999999.0)",
+          "NPoco": "[3.9.4, 3.999999.0)",
+          "Newtonsoft.Json": "[12.0.1, 12.999999.0)",
+          "Semver": "[2.0.4, 2.999999.0)",
+          "Serilog": "[2.8.0, 2.999999.0)",
+          "Serilog.Enrichers.Process": "[2.0.1, 2.999999.0)",
+          "Serilog.Enrichers.Thread": "[3.0.0, 3.999999.0)",
+          "Serilog.Filters.Expressions": "[2.0.0, 2.999999.0)",
+          "Serilog.Formatting.Compact": "[1.0.0, 1.999999.0)",
+          "Serilog.Formatting.Compact.Reader": "[1.0.3, 1.999999.0)",
+          "Serilog.Settings.AppSettings": "[2.2.2, 2.999999.0)",
+          "Serilog.Sinks.File": "[4.0.0, 4.999999.0)",
+          "Umbraco.SqlServerCE": "[4.0.0.1, 4.999999.0)"
+        },
+        "compile": {
+          "lib/net472/Umbraco.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Umbraco.Core.dll": {}
+        }
+      },
+      "UmbracoCms.Web/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CSharpTest.Net.Collections": "[14.906.1403.1082, 14.999999.0)",
+          "ClientDependency": "[1.9.7, 1.999999.0)",
+          "ClientDependency-Mvc5": "[1.8.0, 1.999999.0)",
+          "Examine": "[1.0.0, 1.999999.0)",
+          "HtmlAgilityPack": "[1.8.14, 1.999999.0)",
+          "ImageProcessor": "[2.7.0.100, 2.999999.0)",
+          "LightInject.Mvc": "[2.0.0, 2.999999.0)",
+          "LightInject.WebApi": "[2.0.0, 2.999999.0)",
+          "Markdown": "[2.2.1, 2.999999.0)",
+          "Microsoft.AspNet.Identity.Owin": "[2.2.2, 2.999999.0)",
+          "Microsoft.AspNet.Mvc": "[5.2.7, 5.999999.0)",
+          "Microsoft.AspNet.SignalR.Core": "[2.4.0, 2.999999.0)",
+          "Microsoft.AspNet.WebApi": "[5.2.7, 5.999999.0)",
+          "Microsoft.Owin.Host.SystemWeb": "[4.0.1, 4.999999.0)",
+          "Microsoft.Owin.Security.Cookies": "[4.0.1, 4.999999.0)",
+          "Microsoft.Owin.Security.OAuth": "[4.0.1, 4.999999.0)",
+          "System.Threading.Tasks.Dataflow": "[4.9.0, 4.999999.0)",
+          "UmbracoCms.Core": "[8.0.1]"
+        },
+        "compile": {
+          "lib/net472/Umbraco.Examine.dll": {},
+          "lib/net472/Umbraco.Web.UI.dll": {},
+          "lib/net472/Umbraco.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Umbraco.Examine.dll": {},
+          "lib/net472/Umbraco.Web.UI.dll": {},
+          "lib/net472/Umbraco.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/8.0.0": {
+      "sha512": "px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
+      "type": "package",
+      "path": "automapper/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.8.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "ClientDependency/1.9.7": {
+      "sha512": "G5uthd+bcxufMQW5olz29pmtlm2znmUzbF44dm9hOxsqtcuH3zu2Hz13wLZrIlgwRSxdXoSS4ouZVU3clhE/ZA==",
+      "type": "package",
+      "path": "clientdependency/1.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.install.xdt",
+        "Content/web.config.uninstall.xdt",
+        "clientdependency.1.9.7.nupkg.sha512",
+        "clientdependency.nuspec",
+        "lib/net35/ClientDependency.Core.dll",
+        "lib/net35/ClientDependency.Core.pdb",
+        "lib/net40/ClientDependency.Core.dll",
+        "lib/net40/ClientDependency.Core.pdb",
+        "lib/net45/ClientDependency.Core.dll",
+        "lib/net45/ClientDependency.Core.pdb"
+      ]
+    },
+    "ClientDependency-Mvc5/1.8.0": {
+      "sha512": "LauKtL72wcm/Gw4H5u/AMwvHoyyw/sUdYuNQ4fIYs0dgfIRfjR6Dkf4+ThehsVXVYBBBJHQSUL/vDzM6eudUDg==",
+      "type": "package",
+      "path": "clientdependency-mvc5/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        "Content/web.config.transform",
+        "clientdependency-mvc5.1.8.0.nupkg.sha512",
+        "clientdependency-mvc5.nuspec",
+        "lib/net45/ClientDependency.Core.Mvc.dll",
+        "lib/net45/ClientDependency.Core.Mvc.pdb"
+      ]
+    },
+    "CSharpTest.Net.Collections/14.906.1403.1082": {
+      "sha512": "31Pu0wcHG2c814AUVPSzyL/ijcfyvu4S524+uxOhx2d1dRiIJ9eMLLvRWUhhP7F0Q17cvQpnGnZk8+4DhdJPgg==",
+      "type": "package",
+      "path": "csharptest.net.collections/14.906.1403.1082",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csharptest.net.collections.14.906.1403.1082.nupkg.sha512",
+        "csharptest.net.collections.nuspec",
+        "lib/net20/CSharpTest.Net.Collections.XML",
+        "lib/net20/CSharpTest.Net.Collections.dll",
+        "lib/net40/CSharpTest.Net.Collections.XML",
+        "lib/net40/CSharpTest.Net.Collections.dll"
+      ]
+    },
+    "Examine/1.0.0": {
+      "sha512": "R2QH8VbCkFV5GQlUl1Ifmtz9W3K1ziNZDqVigzDswZJPLKHpG0cBApOtXRs2/febw3uLeOkJ6CHMNgqdMB8zUQ==",
+      "type": "package",
+      "path": "examine/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "examine.1.0.0.nupkg.sha512",
+        "examine.nuspec",
+        "lib/net452/Examine.dll",
+        "lib/net452/Examine.pdb"
+      ]
+    },
+    "HtmlAgilityPack/1.8.14": {
+      "sha512": "HfQYd6XhNm7I3iF2Ui/KQMUagVGj41JjwBzq170gnuHr4Lc92n577OekCbs9JKMV7kSwtDkL5Hsm6ludFc+B0g==",
+      "type": "package",
+      "path": "htmlagilitypack/1.8.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.1.8.14.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net20/HtmlAgilityPack.dll",
+        "lib/Net20/HtmlAgilityPack.pdb",
+        "lib/Net20/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    },
+    "ImageProcessor/2.7.0.100": {
+      "sha512": "p5chWsc6Qbo8ckEKwrOkdG/cWfwNC7EsvrH1k56eTRJIUNVgPUFOBJonrJU0c5pPMAIUTxZLPxpnfad6w3VAtA==",
+      "type": "package",
+      "path": "imageprocessor/2.7.0.100",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "imageprocessor.2.7.0.100.nupkg.sha512",
+        "imageprocessor.nuspec",
+        "lib/net452/ImageProcessor.dll",
+        "lib/net452/ImageProcessor.xml"
+      ]
+    },
+    "LightInject/5.4.0": {
+      "sha512": "w4EjEhNqtzFb0qlScmpjA84Nuv4+OITNGfYCjDhJoLYyw+uagkrrth+e9Hgidv4bMzuNSlJpHPGTHx6DtE4Ixg==",
+      "type": "package",
+      "path": "lightinject/5.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/LightInject.dll",
+        "lib/net452/LightInject.pdb",
+        "lib/net452/LightInject.xml",
+        "lib/net46/LightInject.dll",
+        "lib/net46/LightInject.pdb",
+        "lib/net46/LightInject.xml",
+        "lib/netcoreapp2.0/LightInject.dll",
+        "lib/netcoreapp2.0/LightInject.pdb",
+        "lib/netcoreapp2.0/LightInject.xml",
+        "lib/netstandard1.1/LightInject.dll",
+        "lib/netstandard1.1/LightInject.pdb",
+        "lib/netstandard1.1/LightInject.xml",
+        "lib/netstandard1.3/LightInject.dll",
+        "lib/netstandard1.3/LightInject.pdb",
+        "lib/netstandard1.3/LightInject.xml",
+        "lib/netstandard1.6/LightInject.dll",
+        "lib/netstandard1.6/LightInject.pdb",
+        "lib/netstandard1.6/LightInject.xml",
+        "lib/netstandard2.0/LightInject.dll",
+        "lib/netstandard2.0/LightInject.pdb",
+        "lib/netstandard2.0/LightInject.xml",
+        "lightinject.5.4.0.nupkg.sha512",
+        "lightinject.nuspec"
+      ]
+    },
+    "LightInject.Annotation/1.1.0": {
+      "sha512": "sZZpnoBRo20Ul5i8Vn8NIjIpTqhzPCwcghhQ5R36iJobmEyPjIy3qiTSVL24Ax+6aYdz/v7Vz4m/35qCVjSk3w==",
+      "type": "package",
+      "path": "lightinject.annotation/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/Xamarin.iOS/LightInject.Annotation.dll",
+        "lib/Xamarin.iOS/LightInject.Annotation.pdb",
+        "lib/monoandroid/LightInject.Annotation.dll",
+        "lib/monoandroid/LightInject.Annotation.pdb",
+        "lib/monotouch/LightInject.Annotation.dll",
+        "lib/monotouch/LightInject.Annotation.pdb",
+        "lib/net45/LightInject.Annotation.dll",
+        "lib/net45/LightInject.Annotation.pdb",
+        "lib/net46/LightInject.Annotation.dll",
+        "lib/net46/LightInject.Annotation.pdb",
+        "lib/netstandard1.1/LightInject.Annotation.dll",
+        "lib/netstandard1.1/LightInject.Annotation.pdb",
+        "lib/netstandard1.3/LightInject.Annotation.dll",
+        "lib/netstandard1.3/LightInject.Annotation.pdb",
+        "lib/portable-net45+netcore45+wpa81/LightInject.Annotation.dll",
+        "lib/portable-net45+netcore45+wpa81/LightInject.Annotation.pdb",
+        "lightinject.annotation.1.1.0.nupkg.sha512",
+        "lightinject.annotation.nuspec"
+      ]
+    },
+    "LightInject.Mvc/2.0.0": {
+      "sha512": "kMpzPnnBV8tQ1moY5hnJLJKa+sI4SbZheN8d+w9N9vkzO0K95fANBcF7GXvmEeh2G2CC2KMNmZZF9N5Sa0YRkA==",
+      "type": "package",
+      "path": "lightinject.mvc/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net45/LightInject.Mvc.dll",
+        "lib/net45/LightInject.Mvc.pdb",
+        "lib/net46/LightInject.Mvc.dll",
+        "lib/net46/LightInject.Mvc.pdb",
+        "lightinject.mvc.2.0.0.nupkg.sha512",
+        "lightinject.mvc.nuspec"
+      ]
+    },
+    "LightInject.Web/2.0.0": {
+      "sha512": "+re4VADlWBF1BgIeJOy8D0UTBCZqRELWD8y2OejKrgDr8moLDApydGfNpyJv0J4tG8tqR4LwU33yo5fU/+rkWA==",
+      "type": "package",
+      "path": "lightinject.web/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net45/LightInject.Web.XML",
+        "lib/net45/LightInject.Web.dll",
+        "lib/net45/LightInject.Web.pdb",
+        "lib/net46/LightInject.Web.XML",
+        "lib/net46/LightInject.Web.dll",
+        "lib/net46/LightInject.Web.pdb",
+        "lightinject.web.2.0.0.nupkg.sha512",
+        "lightinject.web.nuspec"
+      ]
+    },
+    "LightInject.WebApi/2.0.0": {
+      "sha512": "Ujdv0UfmKdr6coi/pyLAcIN1tUAPh4X2a7nhxQBlfnbcKW/iRcfqr/l5m3l05eCFnDRUCF6Wiskfi+eve5rVHw==",
+      "type": "package",
+      "path": "lightinject.webapi/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net45/LightInject.WebApi.XML",
+        "lib/net45/LightInject.WebApi.dll",
+        "lib/net45/LightInject.WebApi.dll.config",
+        "lib/net45/LightInject.WebApi.pdb",
+        "lib/net46/LightInject.WebApi.XML",
+        "lib/net46/LightInject.WebApi.dll",
+        "lib/net46/LightInject.WebApi.dll.config",
+        "lib/net46/LightInject.WebApi.pdb",
+        "lightinject.webapi.2.0.0.nupkg.sha512",
+        "lightinject.webapi.nuspec"
+      ]
+    },
+    "Lucene.Net/3.0.3": {
+      "sha512": "A/70q4eDcuuafQeDB9eaiDP9FQG7X29T4VIYRphS7Wk8kAM9gNcfVqYyd0H8BJ1BTpA5C1ORm9RzFn4BiNavrw==",
+      "type": "package",
+      "path": "lucene.net/3.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NET35/Lucene.Net.XML",
+        "lib/NET35/Lucene.Net.dll",
+        "lib/NET35/Lucene.Net.pdb",
+        "lib/NET40/Lucene.Net.XML",
+        "lib/NET40/Lucene.Net.dll",
+        "lib/NET40/Lucene.Net.pdb",
+        "lucene.net.3.0.3.nupkg.sha512",
+        "lucene.net.nuspec"
+      ]
+    },
+    "Markdown/2.2.1": {
+      "sha512": "A6veXuFP1n50RbmFNtTgfHxnHmwMsgFLSCgS1xWbg5L8n5N6HFEksTlXocZ0LsmGW4leBzeLJd+BY7+g83zFJA==",
+      "type": "package",
+      "path": "markdown/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/Markdown.dll",
+        "lib/netstandard1.3/Markdown.dll",
+        "markdown.2.2.1.nupkg.sha512",
+        "markdown.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Identity.Core/2.2.2": {
+      "sha512": "DJNnLn/eElAudZqNUsQ8qQy3LlKnlQ/kBjl+Zi6Xvur/InJ6DZYCuTLV5mtNtDZ0egvpl/e/Q8MLlh+3te7tYw==",
+      "type": "package",
+      "path": "microsoft.aspnet.identity.core/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.Identity.Core.dll",
+        "lib/net45/Microsoft.AspNet.Identity.Core.xml",
+        "microsoft.aspnet.identity.core.2.2.2.nupkg.sha512",
+        "microsoft.aspnet.identity.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Identity.Owin/2.2.2": {
+      "sha512": "3hRTfCtU0PTkqFSMpBLVHj2AiPiljzLcLxZLn9QdCInf+0mIuB+w2roSp8KvLeL/CG9kuS9qvm/5+1k5crcazA==",
+      "type": "package",
+      "path": "microsoft.aspnet.identity.owin/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.Identity.Owin.dll",
+        "lib/net45/Microsoft.AspNet.Identity.Owin.xml",
+        "microsoft.aspnet.identity.owin.2.2.2.nupkg.sha512",
+        "microsoft.aspnet.identity.owin.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Mvc/5.2.7": {
+      "sha512": "m3hUsn48k6Qb5El9A8naTwGTLCdSQKGSpGweqIfiVKltGJzAJJxuXvhhaQQtLCGg3i5V88iGjz0JG72/tlFKlg==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.2.7": {
+      "sha512": "BpWEZ+Ys7g9VAkbAfpG5jr5A1fKcmadCCXv3fYfps5YfTVABJIGV4uc9yvmXKxsNsjL+BzDld2gs+xtgT2gg1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.2.7.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.SignalR.Core/2.4.0": {
+      "sha512": "6bf1QhX+fdYO+kgS4gMhEkjM1/8/b3BrDOL6peSdRshLF23yic5yBPi/l55hXQVuELt4xgTkoUekSp/Wbd/lmw==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.core/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.dll",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.pdb",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.xml",
+        "microsoft.aspnet.signalr.core.2.4.0.nupkg.sha512",
+        "microsoft.aspnet.signalr.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi/5.2.7": {
+      "sha512": "r+nQLBQ857hw8Mfb5hrlMwr0nb7BE1Fp12LsSIZ9g6NT/hTZj8CYUi2UREfywIsGPQ4EIx14oWp8QPRps/i5CA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.aspnet.webapi.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.7": {
+      "sha512": "gM2QzApnHdy1FbKUJ/ROGJSm69P2G+HMoVd/t5Vq1O/zZ5TI4IKC9PX6nUfRt/NHgebZOIWHpB4/4K4inuy4yQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.2.7": {
+      "sha512": "m3TyD7R/cmbfXqkfgcnE0J/UEKklcPP5gsXR96//vLx2kTnsxuOqNlulJLl+Oto4fZMvhVPFZVR+KG9cLZM/PA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.webhost/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml",
+        "microsoft.aspnet.webapi.webhost.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.webhost.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.2.7": {
+      "sha512": "2jwZFB7PvY+tbdz0ZP4iEo7gMrJxkCQUzoGLh6swUc6ZXl6DoKyDslmGcC/j9PFmJXCRMVIqtRorlPSMU2DuRA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Owin/4.0.1": {
+      "sha512": "J3v8nn9ABr5rm22EOyvndAP/gjP2AnhhfZuI2A7lTPO4+j27SpVv6P/Zs29+/AzSpC8qkE6GIe43vodPMF5DpA==",
+      "type": "package",
+      "path": "microsoft.owin/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.4.0.1.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.SystemWeb/4.0.1": {
+      "sha512": "nf5v52w+wkmxjLw4RsWtOOwgbnLlWio94mKrsa61MpYIfhLHJ4ipn4QAGeaxcF46JutOwM+Ch0toU3gBK9eDRw==",
+      "type": "package",
+      "path": "microsoft.owin.host.systemweb/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.dll",
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.xml",
+        "microsoft.owin.host.systemweb.4.0.1.nupkg.sha512",
+        "microsoft.owin.host.systemweb.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security/4.0.1": {
+      "sha512": "4VOvzEBlN+4OQIgsBYCt81cUjJ5ZbuUBZcf/LzqBT5KELskRA9zQ6z/qyh2NPIci8e0z+eJIAMHZTyNDf+QunQ==",
+      "type": "package",
+      "path": "microsoft.owin.security/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.XML",
+        "lib/net45/Microsoft.Owin.Security.dll",
+        "microsoft.owin.security.4.0.1.nupkg.sha512",
+        "microsoft.owin.security.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security.Cookies/4.0.1": {
+      "sha512": "RYY953l3IH9bLZV0Ti7ZXm9stoPr1IoplpFVM2Nd83zhNB85/4hNr5H8Bk5H3LZFb6Ba3O4mIBEYHXK0XcEEGw==",
+      "type": "package",
+      "path": "microsoft.owin.security.cookies/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.Cookies.dll",
+        "lib/net45/Microsoft.Owin.Security.Cookies.xml",
+        "microsoft.owin.security.cookies.4.0.1.nupkg.sha512",
+        "microsoft.owin.security.cookies.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security.OAuth/4.0.1": {
+      "sha512": "KhxNb81lYqbOnn6cad999pskXkEAwftRSd0MSYb6wAMpM5E8686VY4neEqqdKg60x96P/nAtlGPLqiyNimd9nw==",
+      "type": "package",
+      "path": "microsoft.owin.security.oauth/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.OAuth.XML",
+        "lib/net45/Microsoft.Owin.Security.OAuth.dll",
+        "microsoft.owin.security.oauth.4.0.1.nupkg.sha512",
+        "microsoft.owin.security.oauth.nuspec"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
+    "MiniProfiler/4.0.138": {
+      "sha512": "dGJUJBzzUUKs4VilVnI+OcCnSlRAn7HTZ1Kp8ECEU6Ui/NAs3T2dB5cdtxJ6K34AnGoPGO4HuJnSbJtWhK+Q0g==",
+      "type": "package",
+      "path": "miniprofiler/4.0.138",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MiniProfiler.dll",
+        "lib/net461/MiniProfiler.xml",
+        "miniprofiler.4.0.138.nupkg.sha512",
+        "miniprofiler.nuspec"
+      ]
+    },
+    "MiniProfiler.Shared/4.0.138": {
+      "sha512": "KPV/bZhxfcj/P5Iwu3W93gYG88jRzLJi7b3N3snNJCJu+uqb0BRVZv9iwk/uPeYizkDuTHt9rGkGAsPw8YUu7Q==",
+      "type": "package",
+      "path": "miniprofiler.shared/4.0.138",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MiniProfiler.Shared.dll",
+        "lib/net461/MiniProfiler.Shared.xml",
+        "lib/netstandard1.5/MiniProfiler.Shared.dll",
+        "lib/netstandard1.5/MiniProfiler.Shared.xml",
+        "lib/netstandard2.0/MiniProfiler.Shared.dll",
+        "lib/netstandard2.0/MiniProfiler.Shared.xml",
+        "miniprofiler.shared.4.0.138.nupkg.sha512",
+        "miniprofiler.shared.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "NPoco/3.9.4": {
+      "sha512": "FBE9oWSgPQBowBvckSy8n6Wa+czU6hbwGe7P9DPoEwxTrrpAjTKJVZ6UnFF+JB+qo19Yl+38YCxxLgbKbGcSmg==",
+      "type": "package",
+      "path": "npoco/3.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/NPoco.dll",
+        "lib/net40/NPoco.dll",
+        "lib/net45/NPoco.dll",
+        "lib/netstandard1.3/NPoco.dll",
+        "npoco.3.9.4.nupkg.sha512",
+        "npoco.nuspec"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    },
+    "Semver/2.0.4": {
+      "sha512": "H52a9cgrh4hkVxv5y99L9vk2NBtJB3ids/yavTHUvC0pUl3EsWEZAJmjBPFSt7jDtn3Q04+Nhtfo0J2xvsnhZQ==",
+      "type": "package",
+      "path": "semver/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/Semver.dll",
+        "lib/net452/Semver.xml",
+        "lib/netstandard1.1/Semver.dll",
+        "lib/netstandard1.1/Semver.xml",
+        "semver.2.0.4.nupkg.sha512",
+        "semver.nuspec"
+      ]
+    },
+    "Serilog/2.8.0": {
+      "sha512": "zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
+      "type": "package",
+      "path": "serilog/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.pdb",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.pdb",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.pdb",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.pdb",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.pdb",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.2.8.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Enrichers.Process/2.0.1": {
+      "sha512": "Pie0Fa/6zWEWCE3YvsJ35GELhhDVQK3634hU5ccltRYrhf8pj0jfTRMkFs1sbuSpHqNu0wvpQlrdKrDw64VbZg==",
+      "type": "package",
+      "path": "serilog.enrichers.process/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Enrichers.Process.dll",
+        "lib/netstandard1.3/Serilog.Enrichers.Process.dll",
+        "serilog.enrichers.process.2.0.1.nupkg.sha512",
+        "serilog.enrichers.process.nuspec"
+      ]
+    },
+    "Serilog.Enrichers.Thread/3.0.0": {
+      "sha512": "wvLE8gXR8YjUh3Q8Uxmv5/JYYyZLsGD6wetquHXvGxQdyOY+wnQsvX5Jgrno6r6fYQvefMkS9BCqUoxN6ckjaA==",
+      "type": "package",
+      "path": "serilog.enrichers.thread/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Enrichers.Thread.dll",
+        "lib/net45/Serilog.Enrichers.Thread.xml",
+        "lib/netstandard1.0/Serilog.Enrichers.Thread.dll",
+        "lib/netstandard1.0/Serilog.Enrichers.Thread.xml",
+        "serilog.enrichers.thread.3.0.0.nupkg.sha512",
+        "serilog.enrichers.thread.nuspec"
+      ]
+    },
+    "Serilog.Filters.Expressions/2.0.0": {
+      "sha512": "M50BqGfk5OEzKnkjo1pL1BZC7jjBFf73+LexCfrYmX0FpCDGUzueaC+nSgm5g7t+2AS/hDjOu2EN3MkEOiivtg==",
+      "type": "package",
+      "path": "serilog.filters.expressions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Filters.Expressions.dll",
+        "lib/net45/Serilog.Filters.Expressions.xml",
+        "lib/netstandard1.5/Serilog.Filters.Expressions.dll",
+        "lib/netstandard1.5/Serilog.Filters.Expressions.xml",
+        "serilog.filters.expressions.2.0.0.nupkg.sha512",
+        "serilog.filters.expressions.nuspec"
+      ]
+    },
+    "Serilog.Formatting.Compact/1.0.0": {
+      "sha512": "bH6wUpIAptL0YmrTw4J+UIVOEycNl27AydJk4/KAScyoPx8DIkxx0gyjlrMiQMcLJcw+3qG6Q6bIMSQSYzifZA==",
+      "type": "package",
+      "path": "serilog.formatting.compact/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Formatting.Compact.dll",
+        "lib/net45/Serilog.Formatting.Compact.xml",
+        "lib/netstandard1.1/Serilog.Formatting.Compact.dll",
+        "lib/netstandard1.1/Serilog.Formatting.Compact.xml",
+        "serilog.formatting.compact.1.0.0.nupkg.sha512",
+        "serilog.formatting.compact.nuspec"
+      ]
+    },
+    "Serilog.Formatting.Compact.Reader/1.0.3": {
+      "sha512": "A3Hkm3FlPLnrJr0DM//Tg0o1dMVwMs84yqqwMYYMtdFxDQ3tWrMFyyXPaCe5VYUiYi/ELfc8FKlh0j47NNDhoA==",
+      "type": "package",
+      "path": "serilog.formatting.compact.reader/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Formatting.Compact.Reader.dll",
+        "lib/net45/Serilog.Formatting.Compact.Reader.xml",
+        "lib/netstandard1.0/Serilog.Formatting.Compact.Reader.dll",
+        "lib/netstandard1.0/Serilog.Formatting.Compact.Reader.xml",
+        "serilog.formatting.compact.reader.1.0.3.nupkg.sha512",
+        "serilog.formatting.compact.reader.nuspec"
+      ]
+    },
+    "Serilog.Settings.AppSettings/2.2.2": {
+      "sha512": "0Zk86/GM14SN2fLT0Qwz5x2C5Nngtn89HrQ6qn++Zy0+6kum4QHXR6UKGkYOGtrHOHzGJ0t1wYIwFL28xuGRaw==",
+      "type": "package",
+      "path": "serilog.settings.appsettings/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Settings.AppSettings.dll",
+        "lib/netstandard2.0/Serilog.Settings.AppSettings.dll",
+        "serilog.settings.appsettings.2.2.2.nupkg.sha512",
+        "serilog.settings.appsettings.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/4.0.0": {
+      "sha512": "zWVGmDMLHqKg4zGh4dJgKee3yMLgMSLIFdBhXQUGKGJG6F4rpQJmp/Ts+SYBkmjCfsAbUh8NtJfXXGCEOf9mXg==",
+      "type": "package",
+      "path": "serilog.sinks.file/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/netstandard1.3/Serilog.Sinks.File.dll",
+        "lib/netstandard1.3/Serilog.Sinks.File.xml",
+        "serilog.sinks.file.4.0.0.nupkg.sha512",
+        "serilog.sinks.file.nuspec"
+      ]
+    },
+    "SharpZipLib/0.86.0": {
+      "sha512": "5DbS1SlKLMi+WG00Cm0ueYf2oyXJrowETQk8nx96rmdjTuHsA3laPykGV7Sxi0R5Xxfx0Kh/EfacAZ1f6M7y/g==",
+      "type": "package",
+      "path": "sharpziplib/0.86.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/11/ICSharpCode.SharpZipLib.dll",
+        "lib/20/ICSharpCode.SharpZipLib.dll",
+        "lib/SL3/SharpZipLib.Silverlight3.dll",
+        "lib/SL4/SharpZipLib.Silverlight4.dll",
+        "sharpziplib.0.86.0.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "Superpower/2.0.0": {
+      "sha512": "HFjLydod6SZmfDhynhItfSkmi9VnMSnC0iJ6g2fEWDBARwnv4PS/p991TDGi4cm3PBm8dbnUXNG6z3TSwxpmTA==",
+      "type": "package",
+      "path": "superpower/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Superpower.dll",
+        "lib/net45/Superpower.xml",
+        "lib/netstandard1.0/Superpower.dll",
+        "lib/netstandard1.0/Superpower.xml",
+        "superpower.2.0.0.nupkg.sha512",
+        "superpower.nuspec"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/4.4.1": {
+      "sha512": "U/KcC19fyLsPN1GLmeU2zQq15MMVcPwMOYPADVo1+WIoJpvMHxrzvl+BLLZwTEZSneGwaPFZ0aWr0nJ7B7LSdA==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net45/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net46/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net46/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml",
+        "ref/netcoreapp2.0/_._",
+        "system.diagnostics.diagnosticsource.4.4.1.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Dataflow/4.9.0": {
+      "sha512": "dTS+3D/GtG2/Pvc3E5YzVvAa7aQJgLDlZDIzukMOJjYudVOQOUXEU68y6Zi3Nn/jqIeB5kOCwrGbQFAKHVzXEQ==",
+      "type": "package",
+      "path": "system.threading.tasks.dataflow/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.xml",
+        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Dataflow.xml",
+        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll",
+        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.xml",
+        "system.threading.tasks.dataflow.4.9.0.nupkg.sha512",
+        "system.threading.tasks.dataflow.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Umbraco.SqlServerCE/4.0.0.1": {
+      "sha512": "ApeeERIumXC8inaXMF+v0IMikazEp6N6axPqdAVDF6mQoY6K4tlyB3/H9iTIInlUus1ixLtPFHBa+EDzsDF8ng==",
+      "type": "package",
+      "path": "umbraco.sqlserverce/4.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "build/Umbraco.SqlServerCE.targets",
+        "lib/net472/System.Data.SqlServerCe.Entity.dll",
+        "lib/net472/System.Data.SqlServerCe.dll",
+        "runtimes/win-x64/native/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest",
+        "runtimes/win-x64/native/Microsoft.VC90.CRT/msvcr90.dll",
+        "runtimes/win-x64/native/sqlceca40.dll",
+        "runtimes/win-x64/native/sqlcecompact40.dll",
+        "runtimes/win-x64/native/sqlceer40EN.dll",
+        "runtimes/win-x64/native/sqlceme40.dll",
+        "runtimes/win-x64/native/sqlceqp40.dll",
+        "runtimes/win-x64/native/sqlcese40.dll",
+        "runtimes/win-x86/native/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest",
+        "runtimes/win-x86/native/Microsoft.VC90.CRT/msvcr90.dll",
+        "runtimes/win-x86/native/sqlceca40.dll",
+        "runtimes/win-x86/native/sqlcecompact40.dll",
+        "runtimes/win-x86/native/sqlceer40EN.dll",
+        "runtimes/win-x86/native/sqlceme40.dll",
+        "runtimes/win-x86/native/sqlceqp40.dll",
+        "runtimes/win-x86/native/sqlcese40.dll",
+        "umbraco.sqlserverce.4.0.0.1.nupkg.sha512",
+        "umbraco.sqlserverce.nuspec"
+      ]
+    },
+    "UmbracoCms.Core/8.0.1": {
+      "sha512": "yim0/hPzWn9GHrNVyTFZNUweUYVZny7F//CjZ4SNzkrj4DsgCCYzQGNr8wsyevjyfxupQKFzszP7EPAL48xsaQ==",
+      "type": "package",
+      "path": "umbracocms.core/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Umbraco.Core.xml",
+        "lib/net472/Umbraco.Core.dll",
+        "umbracocms.core.8.0.1.nupkg.sha512",
+        "umbracocms.core.nuspec"
+      ]
+    },
+    "UmbracoCms.Web/8.0.1": {
+      "sha512": "T3oiwo95Bap9/zSHvBT3lsAqCy8y1Ep58XAafrF3JKQUjYqKuHVZwczNdp8WXvDqzXBC4s5Hio3K+9/OMO9KqQ==",
+      "type": "package",
+      "path": "umbracocms.web/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Umbraco.Examine.xml",
+        "lib/Umbraco.Web.UI.xml",
+        "lib/Umbraco.Web.xml",
+        "lib/net472/Umbraco.Examine.dll",
+        "lib/net472/Umbraco.Web.UI.dll",
+        "lib/net472/Umbraco.Web.dll",
+        "umbracocms.web.8.0.1.nupkg.sha512",
+        "umbracocms.web.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "UmbracoCms.Core >= 8.0.1",
+      "UmbracoCms.Web >= 8.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Owain\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "L:\\GitHub\\H5YRCloud\\H5YR.Core\\H5YR.Core.csproj",
+      "projectName": "H5YR.Core",
+      "projectPath": "L:\\GitHub\\H5YRCloud\\H5YR.Core\\H5YR.Core.csproj",
+      "packagesPath": "C:\\Users\\Owain\\.nuget\\packages\\",
+      "outputPath": "L:\\GitHub\\H5YRCloud\\H5YR.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Owain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.myget.org/F/umbracocore/api/v2/": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "UmbracoCms.Core": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
+          "UmbracoCms.Web": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          }
+        }
+      }
+    }
+  }
+}
