@@ -1066,7 +1066,7 @@
       ]
     },
     "Microsoft.AspNet.Identity.Core/2.2.2": {
-      "sha512": "DJNnLn/eElAudZqNUsQ8qQy3LlKnlQ/kBjl+Zi6Xvur/InJ6DZYCuTLV5mtNtDZ0egvpl/e/Q8MLlh+3te7tYw==",
+      "sha512": "aZoXAqqisAQlEdeMwcn204m7ErUeYXJuoZ4YqvV85OPeB0w8o8kW8Ww5o5ZTZFx3mrLmmtfWKjt4nLqfjzjXEw==",
       "type": "package",
       "path": "microsoft.aspnet.identity.core/2.2.2",
       "files": [
@@ -1079,7 +1079,7 @@
       ]
     },
     "Microsoft.AspNet.Identity.Owin/2.2.2": {
-      "sha512": "3hRTfCtU0PTkqFSMpBLVHj2AiPiljzLcLxZLn9QdCInf+0mIuB+w2roSp8KvLeL/CG9kuS9qvm/5+1k5crcazA==",
+      "sha512": "oZ+whh1KqOmX/ODPy2gXmgDF3vq0bg1NX1Jsr07+DTtOn/3xh6PCPouNPMhNrVRHfe3E7zPdTUnagnHNr1zUXQ==",
       "type": "package",
       "path": "microsoft.aspnet.identity.owin/2.2.2",
       "files": [
@@ -1368,7 +1368,7 @@
       ]
     },
     "NPoco/3.9.4": {
-      "sha512": "FBE9oWSgPQBowBvckSy8n6Wa+czU6hbwGe7P9DPoEwxTrrpAjTKJVZ6UnFF+JB+qo19Yl+38YCxxLgbKbGcSmg==",
+      "sha512": "XnWlzHZnbGLRZmMmJJZFSzZFY+HUWaYEHAtwgBeEev0SOFA8Ng9ppX7Wc/kqnuz3LZamrWxfv1mOmcRIpe9nEg==",
       "type": "package",
       "path": "npoco/3.9.4",
       "files": [
@@ -1434,7 +1434,7 @@
       ]
     },
     "Serilog.Enrichers.Process/2.0.1": {
-      "sha512": "Pie0Fa/6zWEWCE3YvsJ35GELhhDVQK3634hU5ccltRYrhf8pj0jfTRMkFs1sbuSpHqNu0wvpQlrdKrDw64VbZg==",
+      "sha512": "Qq7Gyz/LoC9jjZPutTfzfrBToEkPSdNLfhalLDxNa9JqCZY2wh+rGsZEEE/952zeqV9pzqzcEKAxuVZoBfl2Gw==",
       "type": "package",
       "path": "serilog.enrichers.process/2.0.1",
       "files": [
@@ -1447,7 +1447,7 @@
       ]
     },
     "Serilog.Enrichers.Thread/3.0.0": {
-      "sha512": "wvLE8gXR8YjUh3Q8Uxmv5/JYYyZLsGD6wetquHXvGxQdyOY+wnQsvX5Jgrno6r6fYQvefMkS9BCqUoxN6ckjaA==",
+      "sha512": "wPt2ib3wj8UVw6Z7HUp1bE3YKeCPHyWesOw+5q3Pf7mBI7A12o/ng97M2D213ambgRLS9BJMNF0/MQTXtpqMjw==",
       "type": "package",
       "path": "serilog.enrichers.thread/3.0.0",
       "files": [
@@ -1462,12 +1462,11 @@
       ]
     },
     "Serilog.Filters.Expressions/2.0.0": {
-      "sha512": "M50BqGfk5OEzKnkjo1pL1BZC7jjBFf73+LexCfrYmX0FpCDGUzueaC+nSgm5g7t+2AS/hDjOu2EN3MkEOiivtg==",
+      "sha512": "JhD2uV1s3ixF4L2dSB7t7jV5OKG8AEQOYtfTqSVkNm9X/g6zr1uoGH62XhDfCzEbyd5fiB9Rv4IXm+8m98Ao9Q==",
       "type": "package",
       "path": "serilog.filters.expressions/2.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Serilog.Filters.Expressions.dll",
         "lib/net45/Serilog.Filters.Expressions.xml",
         "lib/netstandard1.5/Serilog.Filters.Expressions.dll",
@@ -1477,7 +1476,7 @@
       ]
     },
     "Serilog.Formatting.Compact/1.0.0": {
-      "sha512": "bH6wUpIAptL0YmrTw4J+UIVOEycNl27AydJk4/KAScyoPx8DIkxx0gyjlrMiQMcLJcw+3qG6Q6bIMSQSYzifZA==",
+      "sha512": "r3QYz02y7+B7Ng30hyJM929OJhem7SsJ4XDUE0Zfptj2MRiQfpPUb5f58juAFjp/TnNeSX2QNzZEnHwLeoJfHQ==",
       "type": "package",
       "path": "serilog.formatting.compact/1.0.0",
       "files": [
@@ -1507,7 +1506,7 @@
       ]
     },
     "Serilog.Settings.AppSettings/2.2.2": {
-      "sha512": "0Zk86/GM14SN2fLT0Qwz5x2C5Nngtn89HrQ6qn++Zy0+6kum4QHXR6UKGkYOGtrHOHzGJ0t1wYIwFL28xuGRaw==",
+      "sha512": "2BcbEs9E14BVUHlkZjxGnILUTN/FiYn45k8NW5I9nrMELnBy9sCQ1L2SgJVGLlINUhzEVqE7aWE84UG7B0Qr0A==",
       "type": "package",
       "path": "serilog.settings.appsettings/2.2.2",
       "files": [
@@ -1520,7 +1519,7 @@
       ]
     },
     "Serilog.Sinks.File/4.0.0": {
-      "sha512": "zWVGmDMLHqKg4zGh4dJgKee3yMLgMSLIFdBhXQUGKGJG6F4rpQJmp/Ts+SYBkmjCfsAbUh8NtJfXXGCEOf9mXg==",
+      "sha512": "vBj43RkAbeP1dzoPFR2+LfV5GevDRPDq6265JJBv223lMvT9rfdwe/S/I9ow7aZSLYKfw4qPDw6NW8YwjbDbvg==",
       "type": "package",
       "path": "serilog.sinks.file/4.0.0",
       "files": [
@@ -1549,7 +1548,7 @@
       ]
     },
     "Superpower/2.0.0": {
-      "sha512": "HFjLydod6SZmfDhynhItfSkmi9VnMSnC0iJ6g2fEWDBARwnv4PS/p991TDGi4cm3PBm8dbnUXNG6z3TSwxpmTA==",
+      "sha512": "LvsFRxO7VJuUXiaIr3agLuTQTCVYtzgmGJ4BiNe4/DKplOMZ4pibpVSg1ON5zXdCci1jYNfRgQlNEKv0d0Kcog==",
       "type": "package",
       "path": "superpower/2.0.0",
       "files": [
@@ -1724,23 +1723,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Owain\\.nuget\\packages\\": {},
+    "C:\\Users\\Owain.Williams\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "L:\\GitHub\\H5YRCloud\\H5YR.Core\\H5YR.Core.csproj",
+      "projectUniqueName": "C:\\Git\\H5YRV8\\H5YR.Core\\H5YR.Core.csproj",
       "projectName": "H5YR.Core",
-      "projectPath": "L:\\GitHub\\H5YRCloud\\H5YR.Core\\H5YR.Core.csproj",
-      "packagesPath": "C:\\Users\\Owain\\.nuget\\packages\\",
-      "outputPath": "L:\\GitHub\\H5YRCloud\\H5YR.Core\\obj\\",
+      "projectPath": "C:\\Git\\H5YRV8\\H5YR.Core\\H5YR.Core.csproj",
+      "packagesPath": "C:\\Users\\Owain.Williams\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\H5YRV8\\H5YR.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Owain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Owain.Williams\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1748,8 +1747,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.myget.org/F/umbracocore/api/v2/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net472": {
