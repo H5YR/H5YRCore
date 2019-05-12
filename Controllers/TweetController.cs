@@ -39,7 +39,7 @@ namespace H5YR.Core.Controllers
                 {
 
                     Username = tweet.CreatedBy.ToString(),
-                    Avatar = tweet.CreatedBy.ProfileImageUrl.ToString(),
+                    Avatar = tweet.CreatedBy.ProfileImageUrlHttps,
                     Twit = tweet.Text,
                     ScreenName = tweet.CreatedBy.ScreenName.ToString(),
                     TweetedOn = tweet.CreatedAt,
