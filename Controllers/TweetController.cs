@@ -40,11 +40,12 @@ namespace H5YR.Core.Controllers
 
                     Username = tweet.CreatedBy.ToString(),
                     Avatar = tweet.CreatedBy.ProfileImageUrlHttps,
-                    Twit = tweet.Text,
+                    Content = tweet.Text,
                     ScreenName = tweet.CreatedBy.ScreenName.ToString(),
                     TweetedOn = tweet.CreatedAt,
                     NumberOfTweets = FetchTweets.Count(),
-                    ReplyToTweet = tweet.IdStr
+                    ReplyToTweet = tweet.IdStr,
+                    Url = tweet.Url
 
             });
 
