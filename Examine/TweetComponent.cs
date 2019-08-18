@@ -24,6 +24,10 @@ namespace H5YR.Core.Examine
                 {
                     var luceneIndex = index as LuceneIndex;
                     var dir = luceneIndex.GetLuceneDirectory();
+                    if (IndexWriter.IsLocked(dir))
+                    {
+                        IndexWriter.Unlock(dir);
+                    }
                 }
                 _examineManager.AddIndex(index);
 
