@@ -64,9 +64,7 @@ namespace H5YR.Core.Examine
 
         public IEnumerable<ValueSet> GetTweetValueSet()
         {
-            var controller = new TweetController();
-            var viewModels = controller.GetAllTweets();
-
+            var viewModels = GetAllTweets();
             List<TweetModel> FetchTweets = new List<TweetModel>();
 
             foreach (var tweet in viewModels)
@@ -106,5 +104,37 @@ namespace H5YR.Core.Examine
                         var error = ex;
                     }
         }
+        public List<TweetModel> GetAllTweets(int tweetsToSkip = 0, int tweetsToReturn = 12)
+        {
+            // You need to make sure your app on dev.twitter.com has read and write permissions if you wish to tweet!
+            var creds = Auth.SetUserCredentials(consumerKey, consumerSecret, accessToken, accessTokenSecret);
+            Tweetinvi.User.GetAuthenticatedUser(creds);
+
+            var searchResults = Search.SearchTweets("#h5yr");
+
+
+            List<TweetModel> FetchTweets = new List<TweetModel>();
+
+
+            foreach (var tweet in searchResults.Skip(tweetsToSkip).Take(tweetsToReturn))
+            {
+                FetchTweets.Add(new TweetModel()
+                {
+
+                    Username = tweet.CreatedBy.ToString(),
+                    Avatar = tweet.CreatedBy.ProfileImageUrlHttps,
+                    Content = tweet.Text,
+                    ScreenName = tweet.CreatedBy.ScreenName.ToString(),
+                    TweetedOn = tweet.CreatedAt,
+                    NumberOfTweets = FetchTweets.Count(),
+                    ReplyToTweet = tweet.IdStr,
+                    Url = tweet.Url
+
+                });
+            };
+
+            return FetchTweets;
+        }
+
     }
 }
