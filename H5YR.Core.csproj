@@ -3,49 +3,14 @@
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>  
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
 	
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="XCOPY /s /y &quot;$(TargetDir)$(ProjectName).*&quot; &quot;$(ProjectDir)\..\$(SolutionName).Web\bin\&quot;" />
   </Target>
 
 	<ItemGroup>
-		<PackageReference Include="UmbracoCms.Core" Version="8.0.1" />
-		<PackageReference Include="UmbracoCms.Web" Version="8.0.1" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Reference Include="System.Web" />
-	  <Reference Include="Tweetinvi">
-	    <HintPath>bin\Debug\net472\Tweetinvi.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.Controllers">
-	    <HintPath>bin\Debug\net472\Tweetinvi.Controllers.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.Core">
-	    <HintPath>bin\Debug\net472\Tweetinvi.Core.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.Credentials">
-	    <HintPath>bin\Debug\net472\Tweetinvi.Credentials.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.Factories">
-	    <HintPath>bin\Debug\net472\Tweetinvi.Factories.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.Logic">
-	    <HintPath>bin\Debug\net472\Tweetinvi.Logic.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.Security">
-	    <HintPath>bin\Debug\net472\Tweetinvi.Security.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.Streams">
-	    <HintPath>bin\Debug\net472\Tweetinvi.Streams.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Tweetinvi.WebLogic">
-	    <HintPath>bin\Debug\net472\Tweetinvi.WebLogic.dll</HintPath>
-	  </Reference>
+		<PackageReference Include="TweetinviAPI" Version="4.0.0" />
+		<PackageReference Include="UmbracoCms.Core" Version="8.1.2" />
+		<PackageReference Include="UmbracoCms.Web" Version="8.1.2" />
 	</ItemGroup>
 </Project>
